@@ -9,6 +9,12 @@ You can use it for Unity iOS and Android App with the same c# or js code.
 
 经测试，打包测试版本为ios或安卓均无变更竖屏现象。
 
+在上传到GitHub仓库时，因为GoogleMobileAds.framework过大，超过正常上传文件限制100M，压缩后也超过压缩文件限制50M。
+所以没有将 GoogleMobileAds.framework 上传到仓库中，具体文件位置为 Assets->Plugins->iOS -- GoogleMobileAds.framework(本仓库下载项目没有)
+
+可以去 https://github.com/unity-plugins/Unity-Admob/tree/master/Plugins/iOS 下载 GoogleMobileAds.framework.zip 文件。
+解压之后将GoogleMobileAds.framework放入工程目录 Assets->Plugins->iOS 中即可。 
+
 参考： https://blog.csdn.net/unityvrgame/article/details/79506699
 
 
